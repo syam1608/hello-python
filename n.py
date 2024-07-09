@@ -1,6 +1,9 @@
 print("\nSelamat datang di program IMS\n")
 nama = str (input("Siapa nama anda ?"))
-umur = float (input("Berapa Umur anda ?"))
+umur = int (input("beerapa Umur anda"))
+while umur < 0 or umur > 100:
+    print("umur harus o dan 100")
+    umur = int(input("berapa umur anda?")or 0)
 hobi = str (input("Apa Hobi anda ?"))
 tempat_tinggal = str (input("Dimana anda tinggal ?"))
 
