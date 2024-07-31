@@ -15,17 +15,15 @@ print("Tempat tinggal",tempat_tinggal)
 
 print("\nSelanjutnya Silahkan Jawab Pertanyaan di Bawah ini\n")
 
-soal_1 = print(input("Berapa hasil dari 4 + 5 = "))
-
-if soal_1=="9":
+soal_1 = int(input("Berapa hasil dari 4 + 5 = "))
+if soal_1== 9:
     print("Jawaban anda benar")
 elif soal_1=="sembilan":
     print("Jawaban anda benar")    
 else:
     print("Jawaban anda kurang tepat")
    
-soal_2 = print(input("Siapa pendiri NU ?"))
-
+soal_2 = (input("Siapa pendiri NU ?"))
 if soal_2=="Kh Hasyim Asyari":
     print("Jawaban anda benar")
 else:
